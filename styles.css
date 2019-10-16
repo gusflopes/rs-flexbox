@@ -1,5 +1,14 @@
-#app {
+/* `display: flex` to align them in a row on the container outside */
+/* `flex-direction`: basically column or row // also the reverse */
 
+html, body, #app {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
 }
 
 .box {
