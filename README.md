@@ -17,4 +17,5 @@ Project to learn more about Flex Box as tought during the #GoStack, the Rocketse
 - Widgets
 - Timeline
 
-## Next
+## Goal
+Develop an interface similar to the Twitter with Flexbox.

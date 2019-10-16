@@ -1,36 +1,20 @@
-/* `display: flex` to align them in a row on the container outside */
-/* `flex-direction`: basically column or row // also the reverse */
-
-html, body, #app {
-    height: 100%;
+/* Reset the settings */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* !important vai fazer sobrescrever qualquer estilo */
 
-#app {
-    display: flex;
-}
- 
-
-.box {
-    width: 150px;
-    height: 60px;
-    background: #f00;
-    margin: 5px;
-
+body {
+    background: #E6ECF0;
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
 }
 
-.red {
-    order: 1;
-    background: #f00;
-}
-
-.green {
-    order: 2;
-    background: #0f0;
-}
-
-.blue {
-    order: 0;
-    background: #00f;
+.app {
+    width: 300px;
+    padding: 20px;
 }
