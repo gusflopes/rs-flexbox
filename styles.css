@@ -6,10 +6,16 @@ html, body, #app {
     margin: 0;
 }
 
+
 #app {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* or column */
+
+    /* Eixo X e Eixo Y*/
+    align-items: flex-end; 
+    justify-content: space-around;
 }
+ 
 
 .box {
     width: 60px;
