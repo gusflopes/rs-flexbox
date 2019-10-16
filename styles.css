@@ -9,18 +9,20 @@ html, body, #app {
 
 #app {
     display: flex;
+    flex-wrap: wrap; /* or wrap-reverse */
+
+    align-items: center;
+    justify-content: space-between;
+
+    /* Align the itens between themselves */
+    align-content: flex-end;
 }
  
 
 .box {
-    width: 100px;
+    width: 200px;
     height: 60px;
     background: #f00;
     margin: 5px;
 
-    /* Resize (bigger) to fit the container */
-    flex-grow: 1;
-    /* Resize (smaller) to fit the container */
-    flex-shrink: 0;
-    /* instead you can just use `flex: 1 0` */
 }
