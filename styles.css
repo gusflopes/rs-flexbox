@@ -9,17 +9,18 @@ html, body, #app {
 
 #app {
     display: flex;
-    flex-direction: row; /* or column */
-
-    /* Eixo X e Eixo Y*/
-    align-items: flex-end; 
-    justify-content: space-around;
 }
  
 
 .box {
-    width: 60px;
+    width: 100px;
     height: 60px;
     background: #f00;
     margin: 5px;
+
+    /* Resize (bigger) to fit the container */
+    flex-grow: 1;
+    /* Resize (smaller) to fit the container */
+    flex-shrink: 0;
+    /* instead you can just use `flex: 1 0` */
 }
